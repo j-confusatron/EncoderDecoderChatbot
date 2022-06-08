@@ -1,7 +1,9 @@
-# "EVERYTHING I KNOW, I LEARNED FROM THE MOVIES"
+# Everything I Know, I Learned from the Movies
 Basic RNN Chatbot, built on encoder-decoder architecture, trained on movie dialogue.
 
-!!! If you want to run this out-of-the-box !!!
+[Paper](https://github.com/j-confusatron/EncoderDecoderChatbot/blob/main/Encoder%20Decoder%20Chatbot.pdf)
+
+!!! If you want to run this out-of-the-box !!!  
 `python main.py`
 
 ## Table of Contents
@@ -17,26 +19,26 @@ OS:   Win10
 CUDA Drivers: 11.1.105
 
 ## 2. Python Requirements
-~Python Version~
+Python Version
 - Python 3.8.3
 - Conda 4.8.3
 
-~ Installed Libs~
+Installed Libs
 - nltk
 - numpy
 - pytorch
 - tqdm
 
 ## 3. Model Execution ##
-~TLDR~
-`python main.py`
+TLDR  
+`python main.py`  
 Running this as-is will:
 - Format the raw training data
 - Train a model using GRU cells (2 layers x 500 cells on both the encoder and decoder), dot-product attention, and TopP=.4 output decoder
 - Evaluate the model on holdout test data (METEOR, BLEU)
 - Make the chatbot available to use (talk to it at the prompt, enter "q" to quit)
 
-~The Long Version~
+The Long Version
 Python file "main.py" controls the flow of the entire application. At the top of the file are two clearly indicated sections that are intended to be manually edited, in order to dictate how the chatbot should execute. We'll go over each of those sections here.
 
 ### Application controls.
