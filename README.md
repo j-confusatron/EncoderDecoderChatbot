@@ -38,7 +38,7 @@ Running this as-is will:
 - Evaluate the model on holdout test data (METEOR, BLEU)
 - Make the chatbot available to use (talk to it at the prompt, enter "q" to quit)
 
-The Long Version
+The Long Version  
 Python file "main.py" controls the flow of the entire application. At the top of the file are two clearly indicated sections that are intended to be manually edited, in order to dictate how the chatbot should execute. We'll go over each of those sections here.
 
 ### Application controls.
