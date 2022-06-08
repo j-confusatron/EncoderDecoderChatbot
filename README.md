@@ -13,9 +13,9 @@ Basic RNN Chatbot, built on encoder-decoder architecture, trained on movie dialo
 4. Code Layout
 
 ## 1. Build Environment
-Lang: Python 3.8.3 (Conda 4.8.3)
-IDE:  Visual Studio Code (Extensions: Python; Pylance)
-OS:   Win10
+Lang: Python 3.8.3 (Conda 4.8.3)  
+IDE:  Visual Studio Code (Extensions: Python; Pylance)  
+OS:   Win10  
 CUDA Drivers: 11.1.105
 
 ## 2. Python Requirements
